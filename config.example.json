@@ -1,0 +1,668 @@
+{
+  "_comment": "Copy to config.json and edit. Airport lists starting with @ refer to airport_groups; @HOME is home.code.",
+  "home": {
+    "code": "DFW",
+    "name": "Dallas–Fort Worth",
+    "short": "Dallas",
+    "metro": [
+      "DFW",
+      "DAL"
+    ],
+    "lat": 32.9,
+    "lon": -97.04
+  },
+  "travelers": 2,
+  "cabin": "business",
+  "start_date": "2027-07-01",
+  "end_date": "2027-12-31",
+  "currencies": {
+    "Bilt": [
+      "aeroplan",
+      "flyingblue",
+      "united",
+      "virginatlantic",
+      "turkish",
+      "emirates",
+      "qatar",
+      "alaska"
+    ],
+    "Citi": [
+      "flyingblue",
+      "virginatlantic",
+      "turkish",
+      "qatar",
+      "emirates",
+      "etihad",
+      "qantas",
+      "jetblue",
+      "american"
+    ],
+    "Amex": [
+      "aeroplan",
+      "flyingblue",
+      "virginatlantic",
+      "qatar",
+      "emirates",
+      "etihad",
+      "qantas",
+      "jetblue"
+    ]
+  },
+  "exclude_airports": [],
+  "region_overrides": {
+    "Middle East": [
+      "DXB",
+      "DOH",
+      "AUH",
+      "TLV",
+      "AMM",
+      "RUH",
+      "JED",
+      "MCT",
+      "BAH",
+      "KWI"
+    ]
+  },
+  "tiers": {
+    "best_pp": 60000,
+    "best_tax": 300,
+    "good_pp": 87500,
+    "good_tax": 800
+  },
+  "page": {
+    "title": "DFW Award Atlas",
+    "eyebrow": "{cabin} class · {travelers} travelers",
+    "lede": "Award seats with room for {travelers_word}, from {home_name} to Europe, the Middle East, Asia, South America, Africa and Oceania, and back. Options run from {start} to {last}, {year}. Airlines release seats about 330 to 360 days ahead, so later dates aren't bookable yet. Every option is at most one stop from {home_short}, or a nonstop from a gateway after a separate positioning flight. Pulled from seats.aero on {pulled}.",
+    "default_direction": "out",
+    "default_max_points": 100000,
+    "max_points_slider": 130000
+  },
+  "airport_groups": {
+    "EUROPE": [
+      "LHR",
+      "LGW",
+      "LCY",
+      "CDG",
+      "ORY",
+      "AMS",
+      "FRA",
+      "MUC",
+      "ZRH",
+      "GVA",
+      "VIE",
+      "FCO",
+      "MXP",
+      "MAD",
+      "BCN",
+      "LIS",
+      "DUB",
+      "SNN",
+      "CPH",
+      "ARN",
+      "OSL",
+      "BGO",
+      "HEL",
+      "BRU",
+      "IST",
+      "ATH",
+      "PRG",
+      "BUD",
+      "WAW",
+      "KRK",
+      "EDI",
+      "GLA",
+      "MAN",
+      "BHX",
+      "NCE",
+      "LYS",
+      "MRS",
+      "TLS",
+      "VCE",
+      "NAP",
+      "BLQ",
+      "CTA",
+      "DUS",
+      "BER",
+      "HAM",
+      "STR",
+      "CGN",
+      "KEF",
+      "OPO",
+      "FAO",
+      "PDL",
+      "PMI",
+      "AGP",
+      "SVQ",
+      "VLC",
+      "BIO",
+      "SPU",
+      "DBV",
+      "ZAG",
+      "LJU",
+      "SKG",
+      "HER",
+      "MLA",
+      "TLL",
+      "RIX",
+      "OTP",
+      "SOF"
+    ],
+    "ASIA": [
+      "NRT",
+      "HND",
+      "KIX",
+      "NGO",
+      "FUK",
+      "CTS",
+      "ICN",
+      "TPE",
+      "HKG",
+      "MFM",
+      "PVG",
+      "PEK",
+      "CAN",
+      "MNL",
+      "CEB",
+      "SIN",
+      "BKK",
+      "HKT",
+      "KUL",
+      "SGN",
+      "HAN",
+      "DAD",
+      "CGK",
+      "DPS",
+      "DEL",
+      "BOM"
+    ],
+    "MIDDLE_EAST": [
+      "DXB",
+      "DOH",
+      "AUH",
+      "TLV",
+      "AMM",
+      "RUH",
+      "JED",
+      "MCT",
+      "BAH",
+      "KWI"
+    ],
+    "SOUTH_AMERICA": [
+      "GRU",
+      "GIG",
+      "EZE",
+      "AEP",
+      "SCL",
+      "LIM",
+      "BOG",
+      "MDE",
+      "CTG",
+      "UIO",
+      "GYE",
+      "MVD",
+      "ASU",
+      "CUZ",
+      "FOR",
+      "REC",
+      "SSA",
+      "BSB",
+      "CNF",
+      "POA",
+      "FLN",
+      "CCS",
+      "LPB",
+      "VVI",
+      "GEO"
+    ],
+    "AFRICA": [
+      "JNB",
+      "CPT",
+      "DUR",
+      "NBO",
+      "MBA",
+      "ADD",
+      "CAI",
+      "CMN",
+      "RAK",
+      "LOS",
+      "ABV",
+      "ACC",
+      "DSS",
+      "DAR",
+      "ZNZ",
+      "JRO",
+      "KGL",
+      "EBB",
+      "MRU",
+      "SEZ",
+      "WDH",
+      "VFA",
+      "LUN",
+      "HRE",
+      "ABJ",
+      "TUN",
+      "ALG",
+      "LAD",
+      "MPM",
+      "RAI"
+    ],
+    "OCEANIA": [
+      "SYD",
+      "MEL",
+      "BNE",
+      "PER",
+      "ADL",
+      "CNS",
+      "OOL",
+      "CBR",
+      "AKL",
+      "CHC",
+      "WLG",
+      "ZQN",
+      "NAN",
+      "PPT",
+      "NOU",
+      "APW",
+      "RAR",
+      "POM"
+    ],
+    "PORTUGAL": [
+      "LIS",
+      "OPO"
+    ],
+    "GW_EUROPE": [
+      "ORD",
+      "JFK",
+      "EWR",
+      "IAD",
+      "BOS",
+      "ATL",
+      "MIA",
+      "CLT",
+      "PHL",
+      "DEN",
+      "LAX",
+      "SFO",
+      "SEA",
+      "YYZ",
+      "YUL",
+      "IAH",
+      "MSP",
+      "DTW",
+      "AUS"
+    ],
+    "GW_ASIA": [
+      "LAX",
+      "SFO",
+      "SEA",
+      "YVR",
+      "SAN",
+      "LAS",
+      "PHX",
+      "DEN",
+      "ORD",
+      "MSP",
+      "DTW",
+      "IAH",
+      "ATL",
+      "JFK",
+      "EWR",
+      "IAD",
+      "BOS",
+      "YYZ",
+      "HNL"
+    ],
+    "GW_MIDDLE_EAST": [
+      "JFK",
+      "EWR",
+      "IAD",
+      "BOS",
+      "ORD",
+      "IAH",
+      "ATL",
+      "MIA",
+      "PHL",
+      "LAX",
+      "SFO",
+      "SEA",
+      "YYZ",
+      "YUL",
+      "DTW",
+      "DEN",
+      "CLT"
+    ],
+    "GW_SOUTH_AMERICA": [
+      "MIA",
+      "FLL",
+      "MCO",
+      "IAH",
+      "ATL",
+      "JFK",
+      "EWR",
+      "IAD",
+      "ORD",
+      "LAX",
+      "BOS",
+      "YYZ",
+      "YUL",
+      "CLT"
+    ],
+    "GW_AFRICA": [
+      "JFK",
+      "EWR",
+      "IAD",
+      "ATL",
+      "IAH",
+      "ORD",
+      "BOS",
+      "MIA",
+      "PHL",
+      "YYZ",
+      "YUL",
+      "CLT"
+    ],
+    "GW_OCEANIA": [
+      "LAX",
+      "SFO",
+      "SEA",
+      "YVR",
+      "IAH",
+      "HNL",
+      "SAN",
+      "JFK",
+      "ORD",
+      "DEN"
+    ]
+  },
+  "searches": [
+    {
+      "name": "home_europe_asia_out",
+      "direction": "out",
+      "origins": [
+        "@HOME"
+      ],
+      "destinations": [
+        "@EUROPE",
+        "@ASIA"
+      ],
+      "max_stops": 1,
+      "cap": 130000,
+      "stop_above": null,
+      "pages": 6
+    },
+    {
+      "name": "home_europe_asia_ret",
+      "direction": "ret",
+      "origins": [
+        "@EUROPE",
+        "@ASIA"
+      ],
+      "destinations": [
+        "@HOME"
+      ],
+      "max_stops": 1,
+      "cap": 130000,
+      "stop_above": null,
+      "pages": 6
+    },
+    {
+      "name": "gw_europe_out",
+      "direction": "out",
+      "origins": [
+        "@GW_EUROPE"
+      ],
+      "destinations": [
+        "@EUROPE"
+      ],
+      "max_stops": 0,
+      "cap": 100000,
+      "stop_above": 100000,
+      "pages": 10
+    },
+    {
+      "name": "gw_europe_ret",
+      "direction": "ret",
+      "origins": [
+        "@EUROPE"
+      ],
+      "destinations": [
+        "@GW_EUROPE"
+      ],
+      "max_stops": 0,
+      "cap": 100000,
+      "stop_above": 100000,
+      "pages": 10
+    },
+    {
+      "name": "gw_asia_out",
+      "direction": "out",
+      "origins": [
+        "@GW_ASIA"
+      ],
+      "destinations": [
+        "@ASIA"
+      ],
+      "max_stops": 0,
+      "cap": 100000,
+      "stop_above": 100000,
+      "pages": 6
+    },
+    {
+      "name": "gw_asia_ret",
+      "direction": "ret",
+      "origins": [
+        "@ASIA"
+      ],
+      "destinations": [
+        "@GW_ASIA"
+      ],
+      "max_stops": 0,
+      "cap": 100000,
+      "stop_above": 100000,
+      "pages": 6
+    },
+    {
+      "name": "home_south_out",
+      "direction": "out",
+      "origins": [
+        "@HOME"
+      ],
+      "destinations": [
+        "@SOUTH_AMERICA",
+        "@AFRICA",
+        "@OCEANIA"
+      ],
+      "max_stops": 1,
+      "cap": 130000,
+      "stop_above": null,
+      "pages": 6
+    },
+    {
+      "name": "home_south_ret",
+      "direction": "ret",
+      "origins": [
+        "@SOUTH_AMERICA",
+        "@AFRICA",
+        "@OCEANIA"
+      ],
+      "destinations": [
+        "@HOME"
+      ],
+      "max_stops": 1,
+      "cap": 130000,
+      "stop_above": null,
+      "pages": 6
+    },
+    {
+      "name": "gw_south_america_out",
+      "direction": "out",
+      "origins": [
+        "@GW_SOUTH_AMERICA"
+      ],
+      "destinations": [
+        "@SOUTH_AMERICA"
+      ],
+      "max_stops": 0,
+      "cap": 130000,
+      "stop_above": 130000,
+      "pages": 6
+    },
+    {
+      "name": "gw_south_america_ret",
+      "direction": "ret",
+      "origins": [
+        "@SOUTH_AMERICA"
+      ],
+      "destinations": [
+        "@GW_SOUTH_AMERICA"
+      ],
+      "max_stops": 0,
+      "cap": 130000,
+      "stop_above": 130000,
+      "pages": 6
+    },
+    {
+      "name": "gw_africa_out",
+      "direction": "out",
+      "origins": [
+        "@GW_AFRICA"
+      ],
+      "destinations": [
+        "@AFRICA"
+      ],
+      "max_stops": 0,
+      "cap": 130000,
+      "stop_above": 130000,
+      "pages": 6
+    },
+    {
+      "name": "gw_africa_ret",
+      "direction": "ret",
+      "origins": [
+        "@AFRICA"
+      ],
+      "destinations": [
+        "@GW_AFRICA"
+      ],
+      "max_stops": 0,
+      "cap": 130000,
+      "stop_above": 130000,
+      "pages": 6
+    },
+    {
+      "name": "gw_oceania_out",
+      "direction": "out",
+      "origins": [
+        "@GW_OCEANIA"
+      ],
+      "destinations": [
+        "@OCEANIA"
+      ],
+      "max_stops": 0,
+      "cap": 130000,
+      "stop_above": 130000,
+      "pages": 6
+    },
+    {
+      "name": "gw_oceania_ret",
+      "direction": "ret",
+      "origins": [
+        "@OCEANIA"
+      ],
+      "destinations": [
+        "@GW_OCEANIA"
+      ],
+      "max_stops": 0,
+      "cap": 130000,
+      "stop_above": 130000,
+      "pages": 6
+    },
+    {
+      "name": "home_middle_east_out",
+      "direction": "out",
+      "origins": [
+        "@HOME"
+      ],
+      "destinations": [
+        "@MIDDLE_EAST"
+      ],
+      "max_stops": 1,
+      "cap": 130000,
+      "stop_above": 130000,
+      "pages": 5
+    },
+    {
+      "name": "home_middle_east_ret",
+      "direction": "ret",
+      "origins": [
+        "@MIDDLE_EAST"
+      ],
+      "destinations": [
+        "@HOME"
+      ],
+      "max_stops": 1,
+      "cap": 130000,
+      "stop_above": 130000,
+      "pages": 5
+    },
+    {
+      "name": "gw_middle_east_out",
+      "direction": "out",
+      "origins": [
+        "@GW_MIDDLE_EAST"
+      ],
+      "destinations": [
+        "@MIDDLE_EAST"
+      ],
+      "max_stops": 0,
+      "cap": 130000,
+      "stop_above": 130000,
+      "pages": 5
+    },
+    {
+      "name": "gw_middle_east_ret",
+      "direction": "ret",
+      "origins": [
+        "@MIDDLE_EAST"
+      ],
+      "destinations": [
+        "@GW_MIDDLE_EAST"
+      ],
+      "max_stops": 0,
+      "cap": 130000,
+      "stop_above": 130000,
+      "pages": 5
+    },
+    {
+      "name": "portugal_out",
+      "direction": "out",
+      "origins": [
+        "@HOME",
+        "@GW_EUROPE"
+      ],
+      "destinations": [
+        "@PORTUGAL"
+      ],
+      "max_stops": 1,
+      "cap": 130000,
+      "stop_above": null,
+      "pages": 6,
+      "_comment": "Porto and Lisbon have no one-stop options from home, so gateway itineraries here may add one connection."
+    },
+    {
+      "name": "portugal_ret",
+      "direction": "ret",
+      "origins": [
+        "@PORTUGAL"
+      ],
+      "destinations": [
+        "@HOME",
+        "@GW_EUROPE"
+      ],
+      "max_stops": 1,
+      "cap": 130000,
+      "stop_above": null,
+      "pages": 6
+    }
+  ]
+}

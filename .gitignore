@@ -1,0 +1,10 @@
+# Secrets: your seats.aero API key
+.env
+# Your personal settings (copy config.example.json)
+config.json
+# Search results and the built page contain seats.aero data; keep them local
+data/
+dist/
+__pycache__/
+*.pyc
+.DS_Store
