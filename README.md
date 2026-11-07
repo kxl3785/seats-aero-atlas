@@ -9,6 +9,16 @@ Seats Aero Atlas pulls cached award availability from the [seats.aero](https://s
 - **filters** for direction, region, route type, points currency, price, taxes & surcharges and travel dates;
 - **a table grouped by continent and city**, showing each itinerary's full path (`DFW ┄→ ORD → MUC/FRA → LIS`), the aircraft, a day-by-day strip of availability and price, and links to each airline's award search and to seats.aero for every date.
 
+![Header, stats and filters](docs/screenshots/overview.png)
+
+| Route map and best picks | Points vs. cash |
+|---|---|
+| ![Globe of routes from Dallas–Fort Worth, turned to Europe, next to the five cheapest picks](docs/screenshots/globe.png) | ![Scatter chart of points for two against taxes and surcharges per person](docs/screenshots/chart.png) |
+
+![Option table grouped by continent and city, with full itinerary paths, aircraft, date strips and links](docs/screenshots/table.png)
+
+<sub>Screenshots use the example config (Dallas–Fort Worth, business class, two travelers) with availability data from [seats.aero](https://seats.aero), November 2026.</sub>
+
 ## Requirements
 
 - Python 3.9+ (standard library only)
@@ -57,6 +67,8 @@ python3 -m atlas.compare CAI IST         # ...only for routes touching these air
 python3 -m atlas.window 2027-09-22 2027-09-24 --to JFK,EWR,DFW   # best flights for specific dates
 ./seats.py search DFW LHR,CDG 2027-09-01 2027-09-30 --cabin business --points bilt --min-seats 2
 ```
+
+`docs/screenshot.mjs` regenerates the README screenshots with headless Chrome (see the comment at its top).
 
 `seats.py` is also a small standalone CLI for ad-hoc searches (`search`, `bulk`, `trips`).
 
